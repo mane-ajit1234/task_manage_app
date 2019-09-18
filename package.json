@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "env-cmd": "^8.0.2"
+  },
+  "engines": {
+    "node": "8.11.3"
   }
 }
