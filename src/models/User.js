@@ -3,10 +3,7 @@ const validator = require("validator");
 const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
 
-mongoose.connect(process.env.MONGODB_DB_URL, {
-    useNewUrlParser:true,
-    useCreateIndex:true
-});
+
 
 const userSchema = new mongoose.Schema({
     name:{

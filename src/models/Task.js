@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 
-mongoose.connect(process.env.MONGODB_DB_URL, {
-    useNewUrlParser:true,
-    useCreateIndex:true
-});
+
 
 const taskSchema =new mongoose.Schema({
     description:{
